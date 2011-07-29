@@ -1,0 +1,9 @@
+--- This file is part of LuaDist project
+
+name = "libsqlite"
+version = "2.8.17"
+
+desc = "SQLite: An Embeddable SQL Database Engine"
+url = "http://www.sqlite.org/"
+license = "public domain"
+maintainer = "Peter Kapec"

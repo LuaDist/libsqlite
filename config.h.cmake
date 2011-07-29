@@ -1,0 +1,1 @@
+#define SQLITE_PTR_SZ ${SQLITE_PTR_SZ}
