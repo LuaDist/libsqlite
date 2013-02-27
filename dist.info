@@ -1,0 +1,24 @@
+type = "x86_64"
+arch = "Ubuntu"
+author = "Richard Hipp, Dan Kennedy, Joe Mistachkin"
+desc = "SQLite: An Embeddable SQL Database Engine"
+name = "libsqlite"
+maintainer = "Peter Kapec"
+files = {
+Runtime = {
+[[bin/sqlite]],
+}
+,
+Header = {
+[[include/sqlite.h]],
+}
+,
+Unspecified = {
+[[lib/libsqlite.so]],
+}
+,
+}
+
+url = "http://www.sqlite.org/"
+version = "2.8.17"
+license = "public domain"
